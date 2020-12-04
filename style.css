@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: rgb(214, 211, 211);
+    font-family: poppins;
+    
+    margin-right: 15px;
+}
+
+.all{
+    margin-left: 80px;
+    padding-top: 13px;
+}
+
+
+
+
+
+.header{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header h1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 20px;
+    box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2),
+    -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+.overview{
+    padding: 14px 16px;
+    box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2),
+    -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+
+.vision{
+    padding: 14px 16px;
+    box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2),
+    -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+
+.mission{
+    padding: 14px 16px;
+    box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2),
+    -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+
+footer{
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    padding-left: 60px;
+}
+
+.social {
+    position: fixed;
+    width: 40px;
+    height: 1000px;
+    top: 0px;
+    background-color: gray;
+    text-align: center;
+    font-size: 12px;
+}
+
+.social h2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.social a{
+    color: black;
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+.social img{
+    align-items: center;
+    justify-content: center;
+    padding-top: 11px;
+}
+
+.social a:hover{
+    font-size: 13px;
+}
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid gray;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid gray;
+    background: gray;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .overview a{
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      
+  }
+
+  .overview p{
+      padding-top: 8px;
+  }
+  
+  
