@@ -28,6 +28,9 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
 }
 
 .header h1{
