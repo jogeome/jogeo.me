@@ -27,6 +27,7 @@ body{
     border-radius: 11px;
     display: flex;
     height: 100vh;
+    text-align: center;
     scroll-snap-align: center;
   
 }
