@@ -30,7 +30,7 @@ body{
     height: 100vh;
     scroll-snap-align: center;
   
-
+}
 
 .item p{
     font-family: 'Fira Code', monospace;
