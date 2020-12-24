@@ -35,7 +35,7 @@ body{
 
 }
 
-p,h5{
+p{
     font-family: 'Fira Code', monospace;
     padding: 11px;
     padding-top: 11vh;
@@ -49,6 +49,15 @@ p,h5{
     width: 66vh;
     margin: auto;
 }
+
+h5{
+   font-family: 'Fira Code', monospace;
+   color: rgb(109, 99, 99);
+   text-align: center;
+}
+
+
+
 
 
 @keyframes animate
