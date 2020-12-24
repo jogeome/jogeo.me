@@ -26,13 +26,12 @@ body{
     padding: 10px 10px;
     border-radius: 11px;
     display: flex;
-    align-items: center;
     height: 100vh;
     scroll-snap-align: center;
   
 }
 
-.item p{
+.item box{
     font-family: 'Fira Code', monospace;
     padding: 11px;
     padding-top: 11vh;
