@@ -35,7 +35,7 @@ body{
 
 }
 
-p{
+p,h5{
     font-family: 'Fira Code', monospace;
     padding: 11px;
     padding-top: 11vh;
