@@ -65,3 +65,11 @@ h1{
         text-shadow: -3px -3px 0 rgb(3, 173, 252),3px 3px 0 rgb(255, 0, 106);
     }
 }
+
+
+footer{
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    padding-left: 50px;
+}
