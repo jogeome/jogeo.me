@@ -71,5 +71,6 @@ footer{
     align-items: center;
     text-align: center;
     font-size: 14px;
-
+font-family: 'Fira Code', monospace;
+    color: rgb(109, 99, 99);
 }
