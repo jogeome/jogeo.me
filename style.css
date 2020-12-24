@@ -41,6 +41,7 @@ p{
     padding-bottom: 11vh;
     border-radius: 20px;
     background: #17141d;
+    
     box-shadow: -1rem 0 2rem #000;
     color: rgb(109, 99, 99);
     text-align: center;
@@ -67,7 +68,7 @@ h1{
 }
 
 
-footer{
+.copy{
     align-items: center;
     text-align: center;
     font-size: 14px;
