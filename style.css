@@ -25,7 +25,6 @@ body{
 }
 
 .item{
-    padding-top: 33px;
     padding: 10px 10px;
     border-radius: 11px;
     display: flex;
