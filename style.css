@@ -18,10 +18,14 @@ body{
     overflow: scroll;
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
+}
 
 
 
-
+.item{
+    height: 100vh;
+    scroll-snap-align: center;
+  
 }
 
 
