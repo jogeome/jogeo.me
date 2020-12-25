@@ -48,6 +48,12 @@ body{
     
 }
 
+
+
+a,a:hover,a:focus,a:active{
+    text-decoration: none;
+    
+}
 p{
 overflow-wrap: break-word;
 text-align:justify;
