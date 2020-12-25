@@ -82,6 +82,7 @@ h5{
    animation-iteration-count: infinite;
    font-size: 30px;
 
+
 }
 
 
@@ -136,7 +137,7 @@ h1{
     margin: 0 auto;
     font-size: 90px;
     text-align: center;
-    background: linear-gradient(90deg, #000, #fff, #000);
+    color: linear-gradient(90deg, #000, #fff, #000);
     justify-content: center;
     animation: animate 1s linear infinite;
 
