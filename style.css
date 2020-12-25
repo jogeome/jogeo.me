@@ -115,13 +115,6 @@ h5 {
 
 }
 
-@keyframes animate
-{
-    0%{
-        text-shadow: -3px -3px 0 rgb(3, 173, 252),3px 3px 0 rgb(255, 0, 106);
-    }
-}
-
 
 .copy{
     align-items: center;
@@ -139,7 +132,7 @@ h1{
     text-align: center;
     color: linear-gradient(90deg, #000, #fff, #000);
     justify-content: center;
-    animation: animate 1s linear infinite;
+   
 
 }
 
