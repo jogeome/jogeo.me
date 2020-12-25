@@ -8,22 +8,10 @@
 
 
 body{
-    color: black;
-    webkit-user-select: none;  
-  -moz-user-select: none;    
-  -ms-user-select: none;      
-  user-select: none;
     
-    background-color: black;
+    background-color: #17141d;
 }
 
-
-.box img{
-    margin 40px;
-    padding: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    }
 
 .container{
     max-height: 100vh;
@@ -35,6 +23,7 @@ body{
 
 
 .item{
+    padding: 10px 10px;
     border-radius: 11px;
     display: flex;
     height: 100vh;
@@ -45,28 +34,20 @@ body{
 
 .box{
     font-family: 'Fira Code', monospace;
+    padding: 11px;
+    padding-top: 11vh;
+    padding-bottom: 11vh;
     border-radius: 20px;
-    background: black;
-padding 20px;
-align-items: center;
-padding: 10px;
-    height: 70vh;
+    background: #17141d;
+    
     box-shadow: -1rem 0 2rem #000;
-    color: black;
+    color: rgb(109, 99, 99);
     text-align: center;
     width: 66vh;
-    margin: 10px;
-margin-left: 10px;
-    margin-right: 10px;
+    margin: auto;
     
 }
 
-
-
-a,a:hover,a:focus,a:active{
-    text-decoration: none;
-    
-}
 p{
 overflow-wrap: break-word;
 text-align:justify;
@@ -82,7 +63,6 @@ h5{
    animation-direction: alternate; 
    animation-iteration-count: infinite;
    font-size: 30px;
-
 
 }
 
@@ -116,13 +96,20 @@ h5 {
 
 }
 
+@keyframes animate
+{
+    0%{
+        text-shadow: -3px -3px 0 rgb(211, 211, 211),3px 3px 0 rgb(0, 0, 0);
+    }
+}
+
 
 .copy{
     align-items: center;
     text-align: center;
     font-size: 14px;
 font-family: 'Fira Code', monospace;
-    color: black;
+    color: rgb(109, 99, 99);
 }
 
 
@@ -131,35 +118,13 @@ h1{
     margin: 0 auto;
     font-size: 90px;
     text-align: center;
-    color: linear-gradient(90deg, #000, #fff, #000);
+    color: rgb(182, 182, 182);
     justify-content: center;
-    animation: animate 3s linear infinite;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    text-shadow: .03em .03em 0 hsla(230,40%,50%,1);
     
-    position: relative;
-  font-family: sans-serif;
-  text-transform: uppercase;
-  font-size: 2em;
-  letter-spacing: 4px;
-  overflow: hidden;
-  background: linear-gradient(90deg, #000, #fff, #000);
-  background-repeat: no-repeat;
-  background-size: 80%;
-  animation: animate 3s linear infinite;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: rgba(255, 255, 255, 0);
-
 }
 
-@keyframes animate {
-  0% {
-    background-position: -500%;
-  }
-  100% {
-    background-position: 500%;
-  }
-}
+
 
 .cen{
     margin-left: auto;
@@ -171,6 +136,35 @@ h1{
     margin: 4px;
 }
 
-h3{
- padding: 20px;
-}
+h2 {
+    display: inline-block;
+    color: white;
+    font-family: 'Righteous', serif;
+    font-size: 12em; 
+    text-shadow: .03em .03em 0 rgb(71, 76, 104);
+    }
+    h2:after {
+      content: attr(data-shadow);
+      position: absolute;
+      top: .06em; left: .06em;
+      z-index: -1;
+      text-shadow: none;
+      background-image:
+        linear-gradient(
+          45deg,
+          transparent 45%,
+          hsla(48,20%,90%,1) 45%,
+          hsla(48,20%,90%,1) 55%,
+          transparent 0
+          );
+      background-size: .05em .05em;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    
+      animation: shad-anim 15s linear infinite;
+      }
+  
+  @keyframes shad-anim {
+    0% {background-position: 0 0}
+    0% {background-position: 100% -100%}
+    }
