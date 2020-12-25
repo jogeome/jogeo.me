@@ -20,6 +20,8 @@ body{
 .box img{
     margin 40px;
     padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
     }
 
 .container{
