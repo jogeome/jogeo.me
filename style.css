@@ -48,6 +48,9 @@ body{
     
 }
 
+.box img{
+ margin:20px;
+}
 p{
 overflow-wrap: break-word;
 text-align:justify;
