@@ -54,6 +54,8 @@ body{
 
 .box img{
  margin:20px;
+  width: 100%;
+  height: auto;
 }
 p{
 overflow-wrap: break-word;
