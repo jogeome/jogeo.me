@@ -30,7 +30,6 @@ body{
     margin: 10px;
     border-radius: 11px;
     display: flex;
-    height: auto;
     align-items: center;
     scroll-snap-align: center;
   
