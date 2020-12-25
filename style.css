@@ -27,7 +27,8 @@ body{
 
 
 .item{
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 11vh;
     padding-bottom: 11vh;
     border-radius: 11px;
