@@ -27,8 +27,9 @@ body{
 
 
 .item{
+    padding: 10px;
     padding-top: 11vh;
-    padding-bottom: 15vh;
+    padding-bottom: 11vh;
     border-radius: 11px;
     display: flex;
     height: 100vh;
