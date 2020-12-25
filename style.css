@@ -132,7 +132,9 @@ h1{
     text-align: center;
     color: linear-gradient(90deg, #000, #fff, #000);
     justify-content: center;
-   
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
 
 }
 
