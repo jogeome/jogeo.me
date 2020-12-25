@@ -54,8 +54,8 @@ body{
 
 .box img{
  margin:20px;
- max-width: 130vh;
- max-height:130vh;
+ max-width: 30vh;
+ max-height:30vh;
   width: auto;
   height: auto;
 }
