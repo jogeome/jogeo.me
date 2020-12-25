@@ -17,6 +17,11 @@ body{
 }
 
 
+img{
+    margin 20px;
+    
+    }
+
 .container{
     max-height: 100vh;
     overflow: scroll;
