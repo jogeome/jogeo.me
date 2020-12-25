@@ -50,7 +50,8 @@ body{
 p{
 overflow-wrap: break-word;
 text-align:justify;
-padding: 15px;
+padding-left: 10px;
+padding-right: 10px;
 }
 
 h5{
