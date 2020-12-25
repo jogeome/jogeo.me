@@ -136,7 +136,7 @@ h1{
     margin: 0 auto;
     font-size: 90px;
     text-align: center;
-    color: rgb(182, 182, 182);
+    background: linear-gradient(90deg, #000, #fff, #000);
     justify-content: center;
     animation: animate 1s linear infinite;
 
