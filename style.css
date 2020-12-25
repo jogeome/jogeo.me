@@ -52,8 +52,8 @@ overflow-wrap: break-word;
 text-align:justify;
 padding-left: 10px;
 padding-right: 10px;
-padding-top: 30px;
-padding-bottom: 30px
+padding-top: 30vh;
+padding-bottom: 30vh;
 }
 
 h5{
