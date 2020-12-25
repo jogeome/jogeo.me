@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+.hed,h3{
+  vertical-align: text-top;
+  color: white;
+}
 
 body{
     
