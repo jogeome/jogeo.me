@@ -76,12 +76,12 @@ h5{
     font-family: 'Fira Code', monospace;
     color: rgb(109, 99, 99);
   overflow: hidden;
-  border-right: .15em solid orange; 
+  border-right: .5em solid orange; 
   white-space: nowrap; 
   margin: 0 auto; 
-  letter-spacing: .15em;
+  letter-spacing: .10em;
   animation: 
-    typing 3.5s steps(40, end),
+    typing 3.5s steps(35, end),
     blink-caret .75s step-end infinite;
 }
 
