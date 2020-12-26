@@ -6,10 +6,6 @@
     padding: 0;
 }
 
-.hed,h3{
-  vertical-align: text-top;
-  color: white;
-}
 
 body{
     
@@ -27,9 +23,10 @@ body{
 
 
 .item{
-    margin: 10px;
+    padding: 10px 10px;
     border-radius: 11px;
     display: flex;
+    height: 100vh;
     align-items: center;
     scroll-snap-align: center;
   
@@ -37,13 +34,11 @@ body{
 
 .box{
     font-family: 'Fira Code', monospace;
+    padding: 11px;
     padding-top: 11vh;
     padding-bottom: 11vh;
     border-radius: 20px;
     background: #17141d;
-
-    overflow-y:auto;
-    height:70%;
     
     box-shadow: -1rem 0 2rem #000;
     color: rgb(109, 99, 99);
@@ -51,14 +46,6 @@ body{
     width: 66vh;
     margin: auto;
     
-}
-
-.box img{
- margin:20px;
- max-width: 30vh;
- max-height:30vh;
-  width: auto;
-  height: auto;
 }
 
 p{
