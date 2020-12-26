@@ -81,7 +81,7 @@ h5{
   margin: 0 auto; 
   letter-spacing: .10em;
   animation: 
-    typing 4s steps(35, end),
+    typing 4s steps(20, end),
     blink-caret .80s step-end infinite;
 }
 
@@ -92,7 +92,7 @@ h5{
 
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: #4E5DB3; }
+  40% { border-color: #4E5DB3; }
 }
 }
 
