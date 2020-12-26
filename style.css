@@ -66,6 +66,14 @@ h5{
 
 }
 
+.sub{
+    align-items: center;
+    text-align: center;
+    width: 63vh;
+    font-family: 'Fira Code', monospace;
+    color: rgb(109, 99, 99);
+}
+
 
 h5 { 
     
