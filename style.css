@@ -81,7 +81,7 @@ h5{
   margin: 0 auto; 
   letter-spacing: .10em;
   animation: 
-    typing 4s steps(20, end),
+    typing 4s steps(40, end),
     blink-caret .80s step-end infinite;
 }
 
