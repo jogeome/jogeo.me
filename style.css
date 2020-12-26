@@ -87,12 +87,12 @@ h5{
 
 @keyframes typing {
   from { width: 0 }
-  to { width: 97% }
+  to { width: 80% }
 }
 
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: rgb(182, 182, 182); }
+  50% { border-color: #4E5DB3; }
 }
 }
 
