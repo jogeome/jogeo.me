@@ -76,7 +76,7 @@ h5{
     font-family: 'Fira Code', monospace;
     color: rgb(109, 99, 99);
   overflow: hidden;
-  border-right: .10em rgb(109, 99, 99); 
+  border-right: .15em solid orange; 
   white-space: nowrap; 
   margin: 0 auto; 
   letter-spacing: .15em;
@@ -92,7 +92,7 @@ h5{
 
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: rgb(109, 99, 99); }
+  50% { border-color: blue; }
 }
 }
 
