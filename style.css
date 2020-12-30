@@ -134,10 +134,10 @@ h1{
     text-align: center;
     
     justify-content: center;
-    text-shadow: .03em .03em 0 rgb(79, 79, 80);
+   
     background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     
 }
 
