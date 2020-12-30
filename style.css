@@ -135,9 +135,12 @@ h1{
     
     justify-content: center;
    
-    background: -webkit-linear-gradient(#eee, #333);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(left, red , yellow);
+   background: -o-linear-gradient(right, red, yellow);
+   background: -moz-linear-gradient(right, red, yellow);
+   background: linear-gradient(to right, red , yellow); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
     
 }
 
