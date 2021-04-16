@@ -22,12 +22,11 @@ body{
 }
 
 .box img{
-    height: 180px;
-    width: 180px;
+    width: 150px;
     transform: translateZ(20px);
     position: absolute;
-    top: 20%;
-    left: 20%;
+    top: 35%;
+    left: 24%;
 }
 
 .box h1{
