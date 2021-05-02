@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+body{
+    background-color: #E5E5E5;
+
+}
+
+.main{
+    background-color: rgb(221, 221, 221);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 30vh;
+    height: 50vh;
+    border-radius: 10px;
+    stroke: black;
+
+}
+
+#headding{
+    font-family: 'Playfair Display', serif;
+    transform: translate(-10%, 0%);
+}
+
+#paragraph{
+    transform: translate(20%, -30%);
+    padding-top: 20px;
+    font-family: Varela;
+}
+
+#paragraph2 {
+    font-family: Varela;
+    transform: translate(20%, -250%);
+}
+
+.tools2{
+    transform: translate(20%, -300%);
+}
+
+
+
+
+
+span{
+    font-weight: bold;
+}
+
+#list{
+    transform: translate(24%, -50%);
+    padding-top: 20px;
+    font-family: Varela;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0%, 1400%);
+}
+
+.navbar > div{
+    padding: 20px;
+}
+
+div > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-family: sans-serif;
+}
+
+#about > a{
+    text-decoration: line-through;
+    text-decoration-color: orangered;
+    text-decoration-thickness: 3px;
+    color: rgb(145, 145, 145);   
+}
+
+#contact > a:hover{
+    color: rgb(145, 145, 145);
+}
+
+#projects > a:hover{
+    color: rgb(145, 145, 145);
+}
+
+#contact > a:hover{
+    color: rgb(145, 145, 145);
+}
+
+#projects > a:active{
+    text-decoration: line-through;
+    text-decoration-color: orangered;
+    text-decoration-thickness: 3px;
+    color: rgb(145, 145, 145);  
+}
+
+#contact > a:active{
+    text-decoration: line-through;
+    text-decoration-color: orangered;
+    text-decoration-thickness: 3px;
+    color: rgb(145, 145, 145);  
+}
+
+.social{
+    transform: translate(20%, -295%);
+}
