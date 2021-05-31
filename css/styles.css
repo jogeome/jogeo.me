@@ -1,0 +1,48 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	color:rgb(49, 49, 49);
+	background:#252525;
+	font:15px Calibri,Arial,sans-serif;
+}
+
+/* Styling the page */
+
+#page{
+	width:890px;
+	margin:20px auto;
+}
+
+#topBar{
+	
+	height:41px;
+	margin-bottom:15px;
+}
+
+#promoIMG{
+	
+	height:632px;
+	margin-bottom:15px;
+	text-align:center;
+}
+
+#promoIMG img{
+	margin-top:80px;
+}
+
+#contentArea{
+	overflow:hidden;
+	padding-bottom:10px;
+}
+
+.social-links a{
+	color: aliceblue;
+	padding: 15px;
+}
+
+.social-links{
+	margin-top: 50vh;
+}
