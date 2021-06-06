@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
 *:focus {
     -webkit-tap-highlight-color: transparent;
     outline: none;
     -ms-touch-action: manipulation;
     touch-action: manipulation;
-    font-family: 'Poppins', sans-serif;
 }
 
 body{
