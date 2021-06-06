@@ -4,7 +4,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-color: #5D8366;
+    background-color: #4d6d54;
 }
 
 a{
@@ -88,11 +88,19 @@ i{
 
 @media only screen and (max-width: 700px) {
     body {
-      background-color: lightblue;
+      background-color: #4d6d54;
     }
 
     .name p{
         width: 300px;
+    }
+
+    .name h1{
+        font-size: 25px;
+    }
+
+    .qr h3{
+        font-size: 13px;
     }
 
     .qr{
