@@ -26,7 +26,7 @@ a{
 
 .qr{
     display: flex;
-    margin-top: 100px;
+    padding-top: 3%;
     list-style: none;
     align-items: center;
     justify-content: center;
@@ -51,6 +51,8 @@ i{
     list-style: none;
     align-items: center;
 }
+
+
 
 .github h4{
     color: black;
@@ -80,3 +82,21 @@ i{
 .social i{
     padding: 20px;
 }
+
+
+
+
+@media only screen and (max-width: 700px) {
+    body {
+      background-color: lightblue;
+    }
+
+    .name p{
+        width: 400px;
+    }
+
+    .qr{
+        margin-top: 5%;
+    }
+
+  }
