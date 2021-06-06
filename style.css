@@ -4,7 +4,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-color: #598062;
+    background-color: #ffffff;
 }
 
 a{
@@ -22,20 +22,30 @@ a{
 
 .name h1{
     text-align: center;
+    animation: Slide_Up 1s ease;
 }
 
-.qr{
+.name img{
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
+    padding-top: 50px;
+    animation: Slide_Up 4s ease;
+}
+
+/* .qr{
     display: flex;
     padding-top: 1%;
     list-style: none;
     align-items: center;
     justify-content: center;
-}
+} */
 
-.qr img, h3{
+/* .qr img, h3{
     padding: 10px;
+    animation: Slide_Down s ease;
 }
-
+ */
 i{
     color: black;
 }
@@ -50,6 +60,7 @@ i{
     margin-left: auto;
     list-style: none;
     align-items: center;
+    animation: Slide_Up 3s ease;
 }
 
 
@@ -61,6 +72,7 @@ i{
 .name p{
     width: 600px;
     text-align: center;
+    animation: Slide_Up 2s ease;
 }
 
 .github i{
@@ -87,10 +99,6 @@ i{
 
 
 @media only screen and (max-width: 700px) {
-    body {
-      background-color: #598062;
-    }
-
     .name p{
         width: 300px;
     }
@@ -108,3 +116,22 @@ i{
     }
 
   }
+
+
+@keyframes Slide_Up {
+    0%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@keyframes Slide_Down {
+    0%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
