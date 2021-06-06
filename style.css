@@ -33,6 +33,12 @@ a{
     animation: Slide_Up 4s ease;
 }
 
+.social a :hover{
+    background-color: rgb(233, 233, 233);
+    border-radius: 30px;
+    animation: color 1s ease;
+}
+
 /* .qr{
     display: flex;
     padding-top: 1%;
@@ -63,7 +69,9 @@ i{
     animation: Slide_Up 3s ease;
 }
 
-
+.github:hover{
+    animation: ;
+}
 
 .github h4{
     color: black;
@@ -133,5 +141,11 @@ i{
     }
     100%{
         transform: translateY(0);
+    }
+}
+
+@keyframes color {
+    0%{
+        background-color: #ffffff;
     }
 }
