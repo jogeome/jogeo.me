@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #5D8366;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.name{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.name h1{
+    text-align: center;
+}
+
+.qr{
+    display: flex;
+    margin-top: 100px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.qr img, h3{
+    padding: 10px;
+}
+
+i{
+    color: black;
+}
+
+.github{
+    width: 300px;
+    height: 40px;
+    border-radius: 200px;
+    border: solid 1px black;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    list-style: none;
+    align-items: center;
+}
+
+.github h4{
+    color: black;
+}
+
+.name p{
+    width: 600px;
+    text-align: center;
+}
+
+.github i{
+    margin-left: 15px;
+}
+
+.github h4{
+    margin-left: 30px;
+}
+
+.social{
+    position: fixed;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.social i{
+    padding: 20px;
+}
