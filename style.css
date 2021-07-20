@@ -71,7 +71,7 @@ a:active{
 }
  */
 i{
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 .github{
@@ -87,9 +87,7 @@ i{
     animation: Slide_Up 3s ease;
 }
 
-.github:hover{
-    animation: ;
-}
+
 
 .github h4{
     color: black;
